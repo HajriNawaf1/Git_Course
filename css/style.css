@@ -1,0 +1,254 @@
+/* base rules */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat",sans-serif;
+}
+
+p{
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+/* padding all section */
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* navbar */
+
+nav.r-nav{
+background: transparent;
+padding: 20px 0 ;
+transition: .5s all;
+
+}
+
+nav .navbar-brand{
+    font-size: 30px;
+    color: #fff;
+}
+
+nav .navbar-nav li a{
+    color: rgb(255, 255, 255 , 0.8) !important;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: "Nunito",sans-serif;
+}
+
+nav .navbar-nav li{
+margin-left: 15px;
+}
+
+nav.r-nav.stickyadd{
+background: #fff !important;
+padding: 10px 0 ;
+box-shadow: 0 1px 8px 3px rgb(0, 0, 0 , 05) ;
+transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+    color: #000;
+    font-size: 40px;
+    transition: .5s all;
+}
+nav.stickyadd .navbar-nav .nav-link{
+    color: #000 !important;
+}
+.navbar .hamburger{
+    color: #fff;
+}
+nav.stickyadd .hamburger{
+    color: #000;
+}
+
+/* header section */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/Bg-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-box{
+    max-width: 700px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.content-box h4{
+    font-size: 40px;
+ }
+    .content-box h1{
+        font-size: 52px;
+}
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.content-box a:hover{
+    color: #000;
+    background-color: #fff;
+    transition: 0.5s all;
+}
+.content-box p{
+color: #fff;
+}
+
+/* Sction About US  */
+.about li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: 0.5 all;
+    text-align: center;
+}
+.about li a:hover{
+    color: #FFB74D;
+}
+
+/* Contact Section */
+
+form {
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    position:relative;
+  }
+  
+  form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:black;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  form > input,
+  form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    background-color: #222;
+    border-radius: 4px;
+    display: block;
+    width: 70vw;
+  }
+  
+  form > textarea{
+    height:120px;
+    resize:none;
+  }
+  
+  form > input[type="submit"] {
+    max-width: 20vw;
+    cursor: pointer;
+    transition: 0.35s all;
+  }
+  
+  form > input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+/* footer section */
+
+
+.card {
+    background-color: #616161;
+    color: white;
+    margin-top: 20px;
+    border: none
+}
+
+.head1 {
+    font-weight: 900px;
+    font-size: 30px
+}
+
+.line {
+    border-bottom: 3.5px solid #FFB74D;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.card-footer {
+    border: none;
+    background: none;
+    border-bottom: 0.5px solid #9E9E9E
+}
+
+
+.fa-hand-holding-usd {
+    color: #FFB74D
+}
+
+.fa-handshake {
+    color: #FFB74D
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 27px
+}
+
+
+.fa-3x {
+    color: #FFB74D
+}
+
+.card-content {
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+
+.heading {
+    position: relative;
+    top: 45px
+}
+
+.follow-text {
+    color: #9E9E9E
+}

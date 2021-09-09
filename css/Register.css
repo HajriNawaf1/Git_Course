@@ -1,0 +1,80 @@
+body{
+padding: 0;
+margin: 0;
+background: linear-gradient(to right,#BA8B02,#181818 );
+}
+
+.register{
+    background: linear-gradient(to right,#BA8B02,#181818 );
+    background: transparent;
+    margin-top: 5%;
+    padding: 5%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 6%;
+}
+.register-left input{
+    border: none;
+    border-radius: 23px;
+    padding: 2%;
+    width: 70%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-left input:hover{
+    background-color: #181818;
+    color: #fff;
+    transition: 0.4 all;
+    cursor: pointer;
+
+}
+
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.btnRegister:hover{
+    background-color: #BA8B02;
+    color: #000;
+    transition: 0.4 all;
+    cursor: pointer;
+
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #383d41;
+}
